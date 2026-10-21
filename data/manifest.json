@@ -1,0 +1,44 @@
+{
+  "dataset_id": "dataset-V5",
+  "seed": 20260929,
+  "fixed_date": "2026-09-24",
+  "kind": "self_contained_dataset_with_frozen_split",
+  "source_dataset_json_sha256": "f3d09faf50d1d7eb3b4f477a7e5f4bac9534ff8fd63e03a367d34efdffdd6349",
+  "source_targets_csv_sha256": "a02324982ee5e3202f589cb36d70d553e5291ced6a81c772d1ec9758398cb6f4",
+  "source_data_manifest_sha256": "77092df39ee381cbf9a24b4c1dec64d57e07700b4ff20b7395b8a0ae64683d6e",
+  "target_counts": {
+    "normal": 15881,
+    "candidate_anomaly": 191,
+    "total": 16072
+  },
+  "split_manifest": "SPLIT_MANIFEST.csv",
+  "split_manifest_sha256": "e4b03d331fe3d784946fadcd5f4e80919f3a595aa571960a35206ef022cf24fa",
+  "role_counts": {
+    "reference_normal": 8657,
+    "scale_normal": 1111,
+    "cal_normal": 1113,
+    "evaluation_normal": 5000,
+    "evaluation_candidate_anomaly": 191
+  },
+  "scale_chain": "moonbeam",
+  "evaluation_status": "reused_development_panel_not_independent_test",
+  "storage_revision": "20261021-independent-package",
+  "path": "dataset-V5",
+  "optional_inputs": {
+    "records": "record-replay/{MANIFEST.json,records.sqlite}",
+    "xcw": "XChainWatcher/cross-chain-rules-validator/datalog"
+  },
+  "paper_features": {
+    "revision": "data-revision-grid-v1",
+    "required": true,
+    "note": "Final paper candidate descriptions supersede the earlier feature tables inside the immutable V5 package.",
+    "files": {
+      "candidate_execution.parquet": "bf34bec661879fc04d2a494c562511ad21b611cb9767688ab2840425afa135ae",
+      "CTX_K20.npz": "080a890f88f90287616c0bff6079c639f91b0df9065533a44c921132d168b2ca"
+    }
+  },
+  "dataset_inputs": {
+    "data/features/D14.npz": "5b7b3c5ef650906a598020a09264566a4a0909540a4787c0eac0df9cd7514186",
+    "data/candidates/pool.parquet": "71e036f0042795b2f1202c17d1e12df4c08d164eb13dd1c18de9d2becc5bd6d9"
+  }
+}

@@ -1,0 +1,14 @@
+# Dataset payloads and local path overrides
+/data/*
+!/data/README.md
+!/data/manifest.json
+/config.local.yaml
+/runs/
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.DS_Store
+/build/
+/dist/

@@ -1,0 +1,12 @@
+# Relative paths are resolved from the repository root, not the shell directory.
+paths:
+  dataset: data/dataset-V5
+  runs: runs
+  reference_results: results
+  figures: runs/figures
+  paper_features: data/paper-features
+  records: data/record-replay
+  xcw: data/XChainWatcher
+# External baseline executable; may be an absolute path or a name on PATH.
+tools:
+  souffle: souffle
